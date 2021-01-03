@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://www.mapbox.com/install/js/cdn-install/ -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+    <link href='style.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+        type="text/css"
+    />
+    <!-- When defer is not used, Uncaught Error: Container 'map' not found. -->
+    <script src='script.js' defer></script>
+    <title>Parking Locator</title>
+</head>
+<body>
+    <div id='map'></div>
+    <div id='controls'>
+        <h1>Parking Locator</h1>
+    </div>
+    
+
+</body>
+</html>

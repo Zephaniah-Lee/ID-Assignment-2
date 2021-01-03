@@ -1,0 +1,16 @@
+#map{
+    height: 100vh;
+    width: 80vw;
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+    left: 86%;
+    top: 0px;
+    position: absolute;
+    margin: 0px;
+}
+
