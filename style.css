@@ -8,9 +8,40 @@ body{
 }
 
 h1{
-    left: 86%;
+    font-size: 30px;
+}
+
+#controls{
+    left: 83%;
     top: 0px;
     position: absolute;
     margin: 0px;
+}
+
+button#ParkingAreas {
+    position: relative;
+    border: none;
+    color: white;
+    background-color: #AAAAAA;
+    height: 40px;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.marker{
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    background-image: url("parkingicon.PNG");
+}
+
+div.mapboxgl-popup-content {
+    width: 100%;
 }
 
