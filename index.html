@@ -21,7 +21,13 @@
     <div id="map"></div>
     <div id="controls">
         <h1>Parking Locator</h1>
-        <button type="button" id="ParkingAreas" onclick="toggleParkingAreas()">Display Parking Areas</button>
+        <button type="button" id="ParkingAreas" onclick="ToggleParkingAreas(markerList)">Display Parking Areas</button><br></br>
+        <label>Enter Scan Radius (km):</label><br>
+        <input type="text" id="Radius" placeholder="Radius"><br>
+        <button type="button" id="ScanArea" onclick="ScanArea()">Scan Parking Areas</button><br></br>
+        <button type="button" id="CollapseList" onclick="CollapseList()">Show Parking Areas</button><br></br>
+        <select name="carparkList" id="carparkList" size="20">   
+        </select><br></br>
     </div>
 </body>
 </html>
