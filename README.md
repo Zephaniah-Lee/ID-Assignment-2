@@ -24,7 +24,7 @@ There are 3 main features of the App.
  This pin is draggable and will be used for this function of the App.
  By inputting a radius (in kilometers) and clicking and the Scan Parking Areas button, a radius around the draggable pin will be scanned for parking lots.
  By clicking the Show Parking Areas button after scanning, you will be given the addresses within the radius and their empty parking lots.
- You can close this list by clicking the Hide Parking Areas button that replaced the Show Parking Areas button
+ You can close this list by clicking the Hide Parking Areas button that replaced the Show Parking Areas button.
  
  
 
@@ -46,6 +46,7 @@ There are 3 main features of the App.
 ## APIs
 * https://api.data.gov.sg/v1/transport/carpark-availability
 * https://data.gov.sg/api/action/datastore_search?resource_id=139a3035-e624-4f56-b63f-89ae28d4ae4c
-* https://developers.onemap.sg/commonapi/convert/3414to4326?X={X Coordinates}&Y={Y Coordinates}
+* https://developers.onemap.sg/commonapi/convert/3414to4326?X={X Coordinates}&Y={Y Coordinates} 
+[eg. https://developers.onemap.sg/commonapi/convert/3414to4326?X=28983.788791079794&Y=33554.5098132845]
 * https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js
 * https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css
